@@ -5,6 +5,10 @@ body {
   justify-content: center;
 }
 
+main {
+  background-color: powderblue;
+}
+
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: #fff;
