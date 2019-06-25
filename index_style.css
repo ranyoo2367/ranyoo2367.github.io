@@ -5,6 +5,13 @@ body {
   overflow: scroll;
 }
 
+body, html {
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow: scroll;
+}
+
 h1, h3 {
   color: #f48498;
 }

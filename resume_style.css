@@ -4,7 +4,13 @@ body {
   position: fixed;
   background-color: #ffe6e8;
   justify-content: center;
-  overflow: scroll;
+}
+
+body, html {
+      height:100%;
+      margin:0;
+      padding:0;
+      overflow: scroll;
 }
 
 .skill-title {
