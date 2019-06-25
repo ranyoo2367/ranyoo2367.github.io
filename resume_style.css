@@ -25,6 +25,7 @@ body {
   position: relative;
   padding: 20px;
   top: 140px;
+  justify-content: center;
 }
 
 .content {
@@ -141,8 +142,7 @@ body {
 }
 
 .circle {
-  float: left;
-  position: relative;
+  position: retlaive;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -151,4 +151,12 @@ body {
   line-height: 200px;
   text-align: center;
   background: #f48498;
+}
+
+.two {
+  top: 325px;
+}
+
+.three {
+  top: 325px;
 }
