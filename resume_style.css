@@ -3,12 +3,35 @@ body {
   height: 100%;
   position: fixed;
   background-color: #ffe6e8;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.skill-title {
+  color: #acd8aa;
+  top: 0;
+}
+
+#languages {
+  position: relative;
+  padding: 20px;
+}
+
+#languages > * {
+  position: absolute;
+}
+
+#technical-skills {
+  position: relative;
+  padding: 20px;
+  top: 140px;
 }
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 200px;
   left: 50%;
+  margin-right: -50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   height: 160px;
@@ -115,4 +138,17 @@ body {
     -webkit-transform: translate3d(0, -33.33%, 0);
             transform: translate3d(0, -33.33%, 0);
   }
+}
+
+.circle {
+  float: left;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ffe6e8;
+  line-height: 200px;
+  text-align: center;
+  background: #f48498;
 }
