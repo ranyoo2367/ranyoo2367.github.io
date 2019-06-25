@@ -18,6 +18,14 @@ body, html {
   top: 0;
 }
 
+#skills {
+  background-color: #f48498;
+  padding: 25px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
 #languages {
   position: relative;
   padding: 20px;
