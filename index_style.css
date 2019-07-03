@@ -14,14 +14,15 @@ body, html {
 header {
 	text-align: center;
 	background-color: #fff4f4;
+	padding-bottom: 60px;
 }
 
 main {
-	height: 100%;
 	object-fit: cover;
-	background-image: url("selfie.jpg");
+	background-image: url("background1.jpg");
 	background-repeat: repeat;
 	background-size: cover;
+	height: 100%;
 }
 
 h1, h3 {
