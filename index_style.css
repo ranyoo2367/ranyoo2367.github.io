@@ -19,7 +19,7 @@ header {
 main {
 	height: 100%;
 	background-image: url("selfie.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: cover;
 }
 
