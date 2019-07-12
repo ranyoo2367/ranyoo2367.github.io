@@ -41,9 +41,16 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.email {
+  position: relative;
+  padding-left: 20px;
+  color: #e79f9e;
+}
+
 .heading-title {
   position: relative;
   padding-left: 20px;
+  padding-bottom: 20px;
   color: #F4D3D2;
 }
 
@@ -110,8 +117,9 @@ body {
   color: #ba6e6e;
 }
 
-.github-button {
+.github-button-icon {
   padding-left: 20px;
+  padding-top: 20px;
 }
 
 .LI-profile-badge {
@@ -121,6 +129,6 @@ body {
 
 .button-group {
   margin: auto;
-  padding: 50px;
+  padding-left: 20px;
   justify-content: center;
 }
