@@ -113,6 +113,7 @@ body {
   position: relative;
   padding-left: 20px;
   padding-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 #languages > * {
@@ -122,8 +123,13 @@ body {
 #technical-skills {
   position: relative;
   padding-left: 20px;
-  top: 140px;
   justify-content: center;
+  margin-bottom: 525px;
+}
+
+#experience {
+  position: relative;
+  padding-left: 20px;
 }
 
 .content {
@@ -257,7 +263,7 @@ body {
   color: #ffe6e8;
   line-height: 200px;
   text-align: center;
-  background: #f48498;
+  background: #e78f8e;
   margin: 10px;
   justify-content: center;
 
@@ -335,7 +341,7 @@ body {
   max-width: 400px;
   padding: 20px;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(231,159,158, 0.6);
   color: #fff;
   z-index: 4;
   visibility: hidden;
@@ -376,4 +382,86 @@ body {
           transform: scale(1);
   opacity: 1;
   visibility: visible;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+  padding: 30px 20px;
+  float: left;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #f9e3e2;
+  color: #e79f9e;
+  padding: 10px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #f9e3e2;
+  color: #e79f9e;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+  font-size: 18px;
+  color: #e79f9e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.flip-card-front h1 {
+  color: #e78f8e;
+  font-size: 30px;
+  text-transform: none;
+  text-shadow: none;
+  padding-top: 50px;
+}
+
+.flip-card-front h2 {
+  color: #e79f9e;
+  font-size: 20px;
+}
+
+.flipone p {
+  padding-top: 25px;
+}
+
+.fliptwo p {
+  padding-top: 15px;
+}
+
+.flipthree p {
+  padding-top: 10px;
+}
+
+.flipfour p {
+  padding-top: 45px;
 }
