@@ -266,11 +266,12 @@ body {
   background: #e78f8e;
   margin: 10px;
   justify-content: center;
-
 }
 
 .circle-set-1 {
-  float: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-x: scroll;
 }
 
 .circlesets {
