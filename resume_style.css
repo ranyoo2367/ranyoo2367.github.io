@@ -453,7 +453,7 @@ body {
 }
 
 .flipone p {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .fliptwo p {
@@ -461,9 +461,13 @@ body {
 }
 
 .flipthree p {
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .flipfour p {
-  padding-top: 45px;
+  padding-top: 35px;
+}
+
+.flipfive p {
+  padding-top: 25px;
 }

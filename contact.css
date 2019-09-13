@@ -45,6 +45,7 @@ body {
   position: relative;
   padding-left: 20px;
   color: #e79f9e;
+  text-align: center;
 }
 
 .heading-title {
@@ -52,6 +53,7 @@ body {
   padding-left: 20px;
   padding-bottom: 40px;
   color: #F4D3D2;
+  text-align: center;
 }
 
 
@@ -120,11 +122,11 @@ body {
 .github-button-icon {
   padding-left: 20px;
   padding-top: 20px;
+  text-align: center;
 }
 
 .LI-profile-badge {
-  padding-top: 25px;
-  padding-left: 20px;
+  text-align: center;
 }
 
 .button-group {
