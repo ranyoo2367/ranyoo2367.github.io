@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 body {
-  background-color: #fff4f4;
+  background-color: #ffffff;
   overflow: scroll;
 }
 
@@ -13,7 +13,7 @@ body, html {
 
 header {
 	text-align: center;
-	background-color: #fff4f4;
+	background-color: #ffffff;
 	padding-bottom: 60px;
 }
 
@@ -26,20 +26,20 @@ main {
 }
 
 h1, h3 {
-  color: #e79f9e;
+  color: #000000;
 }
 
 p {
-  color: #e79f9e;
+  color: #000000;
 }
 
 h1 {
   margin: 80px 0 10px 0;
   font-size: 52px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'COUTUREBold';
+  font-weight: bold;
+  font-style: normal;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px #e78f8e, 2px 2px 0px #e78f8e, 3px 3px 0px #e78f8e,
-    4px 4px 0px #e78f8e;
 }
 
 h2 {
@@ -48,12 +48,12 @@ h2 {
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'COUTUREBold';
 }
 
 .menu {
   font-weight: 100;
-  background: #e79f9e;
+  background: #000000;
   width: 150px;
   height: 100%;
   padding-left: 50px;
@@ -81,7 +81,7 @@ body {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
-	color: #fff4f4;
+	color: #ffffff;
 }
 .menu .nav {
   position: absolute;
@@ -94,7 +94,7 @@ body {
 .menu .nav li {
   padding-bottom: 30px;
   list-style-type: none;
-	color: #fff4f4;
+	color: #ffffff;
 }
 .menu .nav li a {
   display: block;
@@ -104,5 +104,5 @@ body {
   -webkit-transition: all 0.3s;
 }
 .menu .nav li a:hover {
-  color: #ba6e6e;
+  color: #be6b7e;
 }

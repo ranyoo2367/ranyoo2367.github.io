@@ -5,7 +5,8 @@
     <meta name="description" content="Contact Me">
     <title>Contact Me</title>
     <link rel="stylesheet" type="text/css" href="contact.css">
-    <!-- Place this tag in your head or just before your close body tag. -->
+    <link href="https://fontlibrary.org/face/couture" rel="stylesheet">
+    <script src="myscripts.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
@@ -15,30 +16,37 @@
         <div class="title">MENU</div>
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Contact</a></li>
           <li><a href="resume.html">Resume</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
 
     <header>
-      <h1><i>Contact Me</i></h1>
+      <h1>Contact Me</h1>
     </header>
 
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
     <div class="button-group">
-      <h1 class="heading-title">LinkedIn</h1>
-      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="ranyoo"><a class="LI-simple-link" href='https://www.linkedin.com/in/ranyoo?trk=profile-badge'>Ran Yoo</a></div>
-      <h1 class="heading-title">GitHub</h1>
-      <div class="github-button-icon">
-        <a class="github-button" href="https://github.com/ranyoo2367" data-size="large" aria-label="Follow @ranyoo2367 on GitHub">Follow @ranyoo2367</a>
+      <div class="contact-item">
+        <h1 class="heading-title">LinkedIn</h1>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="ranyoo"><a class="LI-simple-link" href='https://www.linkedin.com/in/ranyoo?trk=profile-badge'>Ran Yoo</a></div>
       </div>
-      <h1 class="heading-title">Email</h1>
-      <h3 class="email">ranyoo@umich.edu</h3>
+
+      <div class="contact-item">
+        <h1 class="heading-title">GitHub</h1>
+        <div class="github-button-icon">
+          <a class="github-button" href="https://github.com/ranyoo2367" data-size="large" aria-label="Follow @ranyoo2367 on GitHub">Follow @ranyoo2367</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <h1 class="heading-title">Email</h1>
+        <h3 id="email">ranyoo@umich.edu</h3>
+        <button id="copy-button" onclick="copyEmail()">Copy</button>
+      </div>
     </div>
-    <br>
-    </br>
     <br>
     </br>
 

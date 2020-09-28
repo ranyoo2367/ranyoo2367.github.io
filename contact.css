@@ -1,5 +1,6 @@
 body {
-  background-color: #fff4f4;
+  background-color: #ffffff;
+  color: #000000;
   overflow: scroll;
 }
 
@@ -12,24 +13,19 @@ body, html {
 
 header {
 	text-align: center;
-	background-color: #fff4f4;
-}
-
-h1, h3 {
-  color: #e79f9e;
+	background-color: #ffffff;
 }
 
 p {
-  color: #e79f9e;
+  color: #000000;
 }
 
 h1 {
   margin: 80px 0 10px 0;
   font-size: 52px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'COUTUREBold';
+  font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px #e78f8e, 2px 2px 0px #e78f8e, 3px 3px 0px #e78f8e,
-    4px 4px 0px #e78f8e;
 }
 
 h2 {
@@ -38,28 +34,40 @@ h2 {
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'COUTUREBold';
 }
 
-.email {
-  position: relative;
-  padding-left: 20px;
-  color: #e79f9e;
+#email {
   text-align: center;
 }
 
 .heading-title {
   position: relative;
-  padding-left: 20px;
-  padding-bottom: 40px;
-  color: #F4D3D2;
+  margin: 30px;
+  color: #000000;
+  font-size: 40px;
   text-align: center;
 }
 
+.contact-item {
+  display: inline-grid;
+  height: 350px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  border-style: dashed;
+  margin: 10px;
+}
+
+.button-group {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
 
 .menu {
   font-weight: 100;
-  background: #e79f9e;
+  background: #000000;
   width: 150px;
   height: 100%;
   padding-left: 50px;
@@ -89,7 +97,7 @@ body {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
-	color: #fff4f4;
+	color: #ffffff;
 }
 
 .menu .nav {
@@ -104,7 +112,7 @@ body {
 .menu .nav li {
   padding-bottom: 30px;
   list-style-type: none;
-	color: #fff4f4;
+	color: #ffffff;
 }
 
 .menu .nav li a {
@@ -116,20 +124,21 @@ body {
 }
 
 .menu .nav li a:hover {
-  color: #ba6e6e;
+  color: #be6b7e;
 }
 
 .github-button-icon {
-  padding-left: 20px;
-  padding-top: 20px;
   text-align: center;
+  top: 50%;
 }
 
 .LI-profile-badge {
-  text-align: center;
+  float: center;
 }
 
-.button-group {
-  margin: auto;
-  justify-content: center;
+#copy-button {
+  float: center;
+  margin: 0 auto;
+  width: 60px;
+  height: 20px;
 }
