@@ -1,5 +1,5 @@
 body {
-  background-color: #fff4f4;
+  background-color: #ffffff;
   overflow: scroll;
 }
 
@@ -12,24 +12,23 @@ body, html {
 
 header {
 	text-align: center;
-	background-color: #fff4f4;
+	background-color: #ffffff;
 }
 
 h1, h3 {
-  color: #e79f9e;
+  color: #000000;
 }
 
 p {
-  color: #e79f9e;
+  color: #000000;
 }
 
 h1 {
   margin: 80px 0 10px 0;
   font-size: 52px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'COUTUREBold';
+  font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px #e78f8e, 2px 2px 0px #e78f8e, 3px 3px 0px #e78f8e,
-    4px 4px 0px #e78f8e;
 }
 
 h2 {
@@ -38,12 +37,12 @@ h2 {
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'COUTUREBold';
 }
 
 .menu {
   font-weight: 100;
-  background: #e79f9e;
+  background: #000000;
   width: 150px;
   height: 100%;
   padding-left: 50px;
@@ -88,7 +87,7 @@ body {
 .menu .nav li {
   padding-bottom: 30px;
   list-style-type: none;
-	color: #fff4f4;
+	color: #ffffff;
 }
 
 .menu .nav li a {
@@ -100,13 +99,13 @@ body {
 }
 
 .menu .nav li a:hover {
-  color: #ba6e6e;
+  color: #be6b7e;
 }
 
 .heading-title {
   position: relative;
   padding-left: 20px;
-  color: #F4D3D2;
+  color: #000000;
 }
 
 #languages {
@@ -141,15 +140,15 @@ body {
           transform: translate(-50%, -50%);
   height: 160px;
   overflow: hidden;
-  font-family: 'Lato', sans-serif;
-  font-size: 35px;
+  font-family: 'COUTUREBold';
+  font-size: 30px;
   line-height: 40px;
-  color: #e78f8e;
+  color: #be6b7e;
   padding-bottom: 100px;
 }
 
 .text-block h3, p{
-  color: #fff4f4;
+  color: #ffffff;
 }
 
 .content__container {
@@ -173,7 +172,7 @@ body {
 .content__container:after, .content__container:before {
   position: absolute;
   top: 0;
-  color: #e78f8e;
+  color: #be6b7e;
   font-size: 42px;
   line-height: 40px;
   -webkit-animation-name: opacity;
@@ -419,19 +418,19 @@ body {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #f9e3e2;
-  color: #e79f9e;
+  background-color: #000;
+  color: #fff;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #f9e3e2;
-  color: #e79f9e;
+  background-color: #000;
+  color: #fff;
   transform: rotateY(180deg);
 }
 
 .flip-card-back p {
-  font-size: 18px;
+  font-size: 14px;
   color: #e79f9e;
   padding-left: 10px;
   padding-right: 10px;
