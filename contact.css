@@ -125,8 +125,19 @@ body {
   text-align: center;
 }
 
-.LI-profile-badge {
+.linkedin-button {
   text-align: center;
+}
+
+input[type=submit] {
+  background:#0072b1;
+  color:white;
+  border-style:outset;
+  border-color:#0072b1;
+  height:50px;
+  width:100px;
+  font:bold15px arial,sans-serif;
+  text-shadow:none;
 }
 
 .button-group {
